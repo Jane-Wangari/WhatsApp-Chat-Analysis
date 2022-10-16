@@ -1,4 +1,5 @@
 # WhatsApp-Chat-Analysis
+![Screenshot 2022-10-17 013058](https://user-images.githubusercontent.com/110452335/196062266-1fc1040d-2b9a-4cf1-8290-739464193cdd.png)
 
 # 30 Days Analytics Learning WhatsApp Group Analysis
 The last project I worked on during the 30 Days of Analytics Learning.
