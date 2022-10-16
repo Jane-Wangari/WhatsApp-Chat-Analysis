@@ -23,11 +23,15 @@ Data cleaning is a process that prepares data for Analysis by removing and modif
 
 ## Cleaning Processes
 After importing the data to Power BI as a text, I transformed it based on the entire dataset.
-Removed blank rows since the first and second columns had empty match rows.
-Split the first column from Digit to Non-Digit and merge columns 1.2 and 1.3 (Month and Year).
+
+I Removed blank rows since the first and second columns had empty match rows. Then, I split the first column from Digit to Non-Digit and merge columns 1.2 and 1.3 (Month and Year).
+
 Split column 2.2 by delimiter (custom -) and rename column 2.2.1 as Time. I then split column 2.2.1 and renamed it as Members. From the members' column, I unchecked data that contained "Mr. Samuel removed…" and then removed the empty rows because any data from the chat would be due to active members (When I matched the blank rows with other data columns, they were also empty).  
+
 I renamed Column 2.2.2 as messages, merged columns 2.23, 2.3, and 2.4, and renamed them Media. I then removed column 1.1.1.1.2, which was now empty.
+
 I then merged the current first column (Day) and the second column (Month Year).
+
 I added a new custom column from Date from the column tab and renamed it Day of Week. I then replaced the values (0-6) with (Sun to Sat), respectively.
 ## Power Query
 The data was then loaded to the Power BI desktop to create insights through visualizations.
