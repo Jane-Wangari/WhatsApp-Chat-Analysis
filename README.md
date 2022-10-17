@@ -26,7 +26,7 @@ After importing the data to Power BI as a text, I transformed it based on the en
 
 I Removed blank rows since the first and second columns had empty match rows. Then, I split the first column from Digit to Non-Digit and merge columns 1.2 and 1.3 (Month and Year).
 
-Split column 2.2 by delimiter (custom -) and rename column 2.2.1 as Time. I then split column 2.2.1 and renamed it as Members. From the members' column, I unchecked data that contained "Mr. Samuel removed…" and then removed the empty rows because any data from the chat would be due to active members (When I matched the blank rows with other data columns, they were also empty).  
+Split column 2.2 by delimiter (custom -) and renamed column 2.2.1 as Time. I then split column 2.2.1 and renamed it as Members. From the members' column, I unchecked data that contained "Mr. Samuel removed…" and then removed the empty rows because any data from the chat would be due to active members (When I matched the blank rows with other data columns, they were also empty).  
 
 I renamed Column 2.2.2 as messages, merged columns 2.23, 2.3, and 2.4, and renamed them Media. I then removed column 1.1.1.1.2, which was now empty.
 
@@ -34,7 +34,7 @@ I then merged the current first column (Day) and the second column (Month Year).
 
 I added a new custom column from Date from the column tab and renamed it Day of Week. I then replaced the values (0-6) with (Sun to Sat), respectively.
 ## Power Query
-The data was then loaded to the Power BI desktop to create insights through visualizations.
+The data was then loaded to the Power BI desktop for visualization.
 
 ## Power BI Desktop
 I created the following DAX measures to help in visualization; Active members, Date1, Days, and Messages Sent.
@@ -45,13 +45,14 @@ I drew the following insights from the loaded data;
 2.	Messages sent on each day of the week.
 3.	Messages sent by Date.
 4.	Frequently used words in the group.
+
 [Interact with my Dashboard and report here]( https://drive.google.com/file/d/1l-BN9gYuNBitEm-GI2WNGYsDBvRyYtT5/view?usp=sharing)
 
 # Conclusions
 1.	The group had 13 active members for 19 days.
-2.	Mr. Samuel and Divine were the most active users in the group.
-3.	The most active day in the group is Monday.
-4.	Apart from the articles and pronouns, the most frequently used words are "attached" and "File."
-5.	Group members were inactive on the 27th and 28th of August, 2022.
-
+2. Group members were inactive on the 27th and 28th of August, 2022.
+3.	Mr. Samuel and Divine were the most active users in the group.
+4.	The most active day in the group is Monday.
+5.	Apart from the articles and pronouns, the most frequently used words are "attached" and "File."
+	
 
