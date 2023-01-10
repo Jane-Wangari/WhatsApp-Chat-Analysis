@@ -2,7 +2,7 @@
 ![Screenshot 2022-10-17 013058](https://user-images.githubusercontent.com/110452335/196062266-1fc1040d-2b9a-4cf1-8290-739464193cdd.png)
 
 # 30 Days Analytics Learning WhatsApp Group Analysis
-The last project I worked on during the 30 Days of Analytics Learning.
+The last project I worked on during the 30 Days of Analytics Learning.   
 
 # Introduction
 WhatsApp is one of the trendy social media platforms in the world today. Most social media users use WhatsApp since it is a more manageable communication platform and has attractive features. Also, the platform offers flexible and fast communication to individuals and groups, allowing sharing of different media. A WhatsApp group is where people are invited, and the invited people can chat. In the 30 Days Analytics Learning Group, Samuel Iheagwam created the group and invited the rest of the members.
